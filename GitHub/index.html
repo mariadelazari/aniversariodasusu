@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniversário da Mamãe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🎉 Aniversário da Susu!! 🎂</h1>
+        <p>Venha comemorar conosco no dia <strong>22 de junho</strong>!</p>
+    </header>
+
+    <section id="hero">
+        <img src="foto-mae.jpg" alt="Foto futura...
+">
+        <h2>Confirme sua presença!</h2>
+    </section>
+
+    <section id="countdown">
+        <h3>Faltam:</h3>
+        <p id="timer"></p>
+    </section>
+
+    <section id="rsvp">
+        <h3>Confirmação de Presença</h3>
+        <form id="form-rsvp">
+            <input type="text" id="nome" placeholder="Seu nome" required>
+            <input type="number" id="quantidade" placeholder="Quantas pessoas?" required>
+            <textarea id="mensagem" placeholder="Deixe uma mensagem"></textarea>
+            <button type="submit">Confirmar</button>
+        </form>
+        <div id="lista-convidados"></div>
+    </section>
+
+    <section id="mural">
+        <h3>Mensagens dos convidados</h3>
+        <div id="mensagens"></div>
+    </section>
+
+    <section id="mapa">
+        <h3>Local da Festa</h3>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3471.2133192220385!2d-53.271402!3d-23.7507093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f2d17d4d8dfabf%3A0xa1b7fbb1582dcacf!2sShopping%20Palladium%20Umuarama!5e1!3m2!1sen!2sbr!4v1741562518953!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>">
+        </iframe>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
